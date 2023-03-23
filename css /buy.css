@@ -1,0 +1,76 @@
+.watch-col{
+   margin-top: 1em;
+    width: 93%;
+    height: 200px;
+    padding: 1em;
+    background-color: #000;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 1em;
+}
+.watchlist-head{
+    margin-left: 1em;
+}
+
+.watch-col img{
+    width: 20px;
+    height: 20px;
+}
+#watch-main{
+    padding-top: 2em;
+}
+.watch-text{
+    padding-left: 1em;
+    margin-top: -0.3em;
+    color: #fff;
+}
+.watch-percent{
+    margin-left: auto;
+    color: green;
+}
+.watch-price{
+    margin-top: 0.1em;
+    font-size: 2.3em;
+}
+.watch-trend{
+    height: 0.7em;
+    width: 93%;
+    border-radius: 30px;
+    background-color: rgb(87, 128, 0);
+    margin-top: 1em;
+}
+.span{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(71,6,236);
+    border-radius: 30px;
+}
+.tren{
+    color: rgb(118, 118, 118);
+    margin-bottom: -2em;
+}
+.watch2{
+    background-color: rgb(199, 196, 10);
+}
+.watch3{
+    background-color: rgb(71,6,236);
+}
+.watch4{
+    background-color: #333;
+}
+.watch3 .watch-trend{
+    background-color: #000;
+    width: 200px;
+}
+.watch3 .span{
+    background-color: rgb(199, 196, 10);
+    width: 20%;
+}
+@media screen and (min-width:800px) {
+    .watch-row{
+        display: flex;
+    }
+    .watchlist-head{
+        padding-top: 4em;
+    }
+}

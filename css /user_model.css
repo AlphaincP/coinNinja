@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,400;1,500&display=swap');
+
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+}
+.header{
+    margin: 2em 0.5em;
+}
+.pro-img{
+    width: 65px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: rgb(71,6,236);
+    color: #fff;
+    padding: 0.7em 1em;
+    font-weight: bold;
+}
+.notify{
+    position: absolute;
+    top: 2.5%;
+    right: 2%;
+}
+.bi-bell,.bi-moon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.bi-moon{
+    padding-left: 0.3em;
+}
+aside{
+    text-align: center;
+    background-color: rgb(236, 234, 234);
+    width: 95%;
+    margin-left: 0.6em;
+    padding: 0.5em;
+    height: 255px;
+    border-radius: 15px;
+}
+.bal-balance h3{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(143, 143, 143);
+}
+.bal-balance h1{
+    font-size: 3.5em;
+}
+.bi-currency-dollar{
+    color: rgb(71,6,236);
+}
+.bal-up{
+    background-color: rgb(207, 207, 207);
+    color: green;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    
+}
+.bal-opt{
+    text-transform: uppercase;
+}
+.bal-actions{
+    margin-top: 2em;
+}
+.bal-actions button{
+    padding: 1em 3em;
+    margin: 0 0.2em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.transact button{
+    margin: 2em 1.2em;
+    padding: 0.8em 11em;
+    border: none;
+    background-color: rgb(71,6,236);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.assets h3{
+    margin: 0 1em;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.col{
+    display: flex;
+    width: 95%;
+    margin: 1.5em 1em;
+}
+.col-image img{
+    width: 45px;
+    height: 45px;
+    
+}
+.col-text{
+    padding-left: 5px;
+}
+.col-text p{
+    color: rgb(188, 187, 187);
+}
+.row{
+    margin: 1em 0;
+}
+.col-price{
+    margin-left:auto;
+}
+.up{
+    color: green;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    height: 70px;
+    width: 100%;
+}
+.footer-icons ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0.8em 1em;
+}
+.footer-icons ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 1.5em;
+}
+.footer-icons i{
+    font-size: 35px;
+}
+.footer-icons ul li a .bi-arrow-down-up{
+    color: #000;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0.02em 0.02em 0.2em rgba(0,0,00.2);
+   
+}
+.dark{
+    background-color: #000;
+    
+}
+.dark aside{
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+}
+.dark .bal-actions button{
+    background-color: #333;
+    border: none;
+}
+.dark .notify i{
+    color: #fff;
+}
+.dark .col-text h3{
+    color: #fff;
+}
+.dark .col-price .price{
+    color: #fff;
+}
+@media screen and (min-width:800px){
+    .footer{
+        position: fixed;
+        left: 0;
+        width: 5%;
+        top: 0;
+        height: 100vh;
+    }
+    .footer-icons ul{
+        display: flex;
+        flex-direction: column;
+        margin: 10em 0.1em;
+    }
+    .footer-icons ul li a .bi-arrow-down-up{
+        background-color: #000;
+        font-size: 35px;
+        padding: 0;
+        box-shadow: none;
+        color: #fff;
+    }
+    .footer-icons ul li{
+        margin-top: 2em ;
+        margin-left: -0.5em;
+    }
+    aside{
+        width: 40%;
+        margin-left: 5em;
+    }
+    .header{
+        margin-left: 5em;
+    }
+    main{
+        margin-left: 5em;
+    }
+    .transact{
+        margin-left: 5em;
+    }
+    .col{
+        width: 40%;
+    }
+}

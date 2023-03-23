@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,400;1,500&display=swap');
+*,::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+}
+.container{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 400px;
+}
+.title h3{
+    font-size: 2em;
+    color: rgb(71,63,236);
+    font-weight: 600;
+    padding: 0.1em 0.6em;
+}
+.main-title{
+    text-align: center;
+    margin: 2em 0;
+}
+.main-title h1{
+    font-size: 2.4em;
+}
+hr{
+    margin-bottom: 5em;
+}
+button{
+    padding: 1em 7em;
+    color: #fff;
+    background-color: rgb(71,63,236);
+    border: none;
+    border-radius: 5px;
+    margin: 1em;
+}
+main{
+    margin: 1em 0;
+}
+.image h4{
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: 8em 2em;
+}
+.image img{
+    float: right;
+    width: 150px;
+    margin-top: -18em;
+    height: 200px;
+    margin-right: 3em;
+    border-radius: 30px;
+}
+.image2 img{
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-top: -8em;
+    border-radius: 30px;
+    margin-left:2em ;
+}
+.image2 h4{
+    float:right;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: -1.5em;
+    margin-right: 2em;
+} 
+.image3 img{
+    width: 150px;
+    height: 200px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1.8em;
+}
+.image3 h4{
+    float: left;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-left: -4.5em;
+    margin-top: 5em;
+}
+.purpose{
+    padding: 25em 0;
+    text-align: center;
+}
+.pur-title h3{
+    font-size: 1.6em;
+    font-weight: 400;
+}
+.pur-body{
+   margin: 3em 0;
+}
+.pur-one{
+    margin: 1em 0;
+}
+.pur-one span{
+    background-color: #fff;
+    padding: 3em 1em 1em 1em;
+    margin: 2em 0;
+    box-shadow: 0.02em 0.02em 0.2em rgba(0,0,0,0.2);
+    border-radius: 50%;
+}
+.pur-one p{
+    margin: 2em 0;
+    
+}
+.for{
+    margin-top: -17em;
+    width: 100%;
+     height: 900px;
+    background-color: rgb(235, 247, 250);
+}
+.for-text{
+    padding: 0.5em;
+    font-weight: 200;
+}
+.for-title h3{
+    font-size: 1.3em;
+    padding: 0.5em;
+}
+.row{
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+}
+.col{
+    background-color: #fff;
+    padding: 1em;
+    width: 80%;
+    border-radius: 30px;
+    text-align: left;
+    box-shadow: 0.01em 0.01em 0.1em rgba(0,0,0,0.2);
+    margin: 1em 1.5em;
+}
+.col h4{
+    font-size:1em;
+}
+.waitlist{
+    margin: 5em 0;
+    display: block;
+    text-align: center;
+}
+.form-container h3{
+    font-size: 2em;
+}
+form{
+    margin: 2em 0;
+}
+input{
+    width: 90%;
+    height: 70px;
+    border: 1px solid rgb(218, 215, 215);
+    font-size: 1em;
+    padding: 0.5em;
+}
+form button{
+    padding: 1em 9em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.end{
+    text-align: center;
+    margin: 2em 0;
+    line-height: 2;
+}
+.end h1{ 
+    font-size: 3em;
+     
+}
+.end .the{
+    background-color: #000;
+    color: #fff;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+.end .s{
+    border: 4px solid rgb(71,63,236);
+    padding: 0.4em 0.6em;
+    border-radius: 50%;
+}
+.social-icons ul{
+    display: flex;
+    margin: 0 0.5em;
+    list-style-type: none;
+    text-align: center;
+}
+.copyright p{
+    text-align: center;
+    font-size: 1em;
+}
+@media (min-width : 280px) and (max-width:390px){
+    .image2 img{
+     float: left;
+     width: 150px;
+     height: 200px;
+     margin-top: -8em;
+     border-radius: 30px;
+     margin-left: 0.5em;
+    }
+    .image img{
+        margin-right: 1em;
+    }
+ }
+ @media (width : 360px){
+    .image2 h4{
+        margin-right: 1em;
+    }
+    .image3 img{
+        margin-right: 1em;
+    }
+ }
+ @media (width:280px){
+    .image h4{
+        margin-left: 0.5em;
+    }
+    .image2 img{
+        margin-top: -4em;
+    }
+    .image3 h4{
+        margin-top: 8em;
+        margin-left: -5em;
+    }
+    .image3 img{
+        margin-right: -0.1em;
+    }
+    .purpose{
+        margin-top: 5em;
+    }
+    .image2 h4{
+        margin-right: -0.5em;
+    }
+    .image2 img{
+        margin-left: -0.5em;
+    }
+ }
+@media (min-width:801px) and (max-width:10000000px){
+    .main-title{
+        text-align: left;
+        margin: 8em 3em;
+    }
+    .main-title p{
+        margin: 1.2em 0;
+    }
+    .main-title h1{
+        font-size:3.3em;
+    }
+    .main-title button{
+        margin-left: -0.4em;
+    }
+    .img{
+        position: absolute;
+        top: -5%;
+        right: 15%;
+    }
+    .image2 img{
+        margin-left: -12em;
+    }
+    .image h4{
+        margin-left: -5em;
+    }
+    .pur-body{
+        display: flex;
+    }
+    .pur-one{
+        margin: 0 2em;
+    }
+    .row{
+        display: flex;
+    }
+    .for{
+        height: 600px;
+    }
+    .col{
+        width: 60%;
+    }
+    input{
+        width: 50%;
+    }
+} 
+@media (min-width : 801px) and (max-width :1100px){
+    .main-title h1{
+        font-size: 2em;
+       
+    }
+    .img{
+        right: 1%;
+    }
+    .main-title {
+        margin-left: 1.2em;
+    }
+}
+@media (min-width :1101px) and (max-width:1300px){
+    .main-title{
+        margin-left: 1.4em;
+
+    }
+    .main-title h1{
+        font-size: 3em;
+    }
+    .img{
+        right: 10%;
+    }
+}
+@media (min-width : 930px) and (max-width : 1100px){
+    .main-title h1{
+        font-size: 2.6em;
+    }
+}
